@@ -1,0 +1,493 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base>
+<div class="shell"><nav><div class="nwa play" id="nwa"><span class="big"><span class="ch">N</span><span class="ch d">.</span><span class="ch">W</span><span class="ch d">.</span><span class="ch">A</span><span class="ch d">.</span></span><span class="tag">nerd with attitude</span></div><button class="toggle" id="tg" aria-label="Toggle theme"><span class="knob" id="knob">☀</span></button></nav><section class="hero"><div class="kick" data-build style="--bd:60ms">Thomas Deschamps · Freelance AI &amp; product · Paris</div><h1><span data-build style="--bd:140ms">I turn <span class="q">&ldquo;cool if AI could&hellip;&rdquo;</span></span> <span data-build style="--bd:240ms">into things people use.</span> <span class="tomato" id="tom" data-build style="--bd:560ms">🍅</span></h1><p class="lead" data-build style="--bd:360ms"><b>Thomas Deschamps</b> — freelance product manager, ex-backend dev. I ship agents, MCP, and the occasional fashion brand.</p><div class="cta-row" data-build style="--bd:440ms"><a href="#contact" class="cta">Work with me</a><a href="#built" class="cta ghost">See what I&rsquo;ve built</a></div><div class="now" data-build style="--bd:520ms"><span class="dot"></span>Currently · <b>Senior PM @ Modjo</b> · building <b>Moire</b></div></section><section class="block" id="built"><div class="sec-h">Things I&rsquo;ve built</div><div class="built"><a class="lnk" data-reveal href="#"><span class="nm">Moire</span><span class="mt">live AI product</span></a><a class="lnk" data-reveal href="#"><span class="nm">Modjo Sales Agent</span><span class="mt">19 skills · open source</span></a><a class="lnk" data-reveal href="#"><span class="nm">modjo-cli</span><span class="mt">Go · MCP server</span></a><a class="lnk" data-reveal href="#"><span class="nm">Live Transcript</span><span class="mt">Twilio · Groq · 2h POC</span></a></div></section><section class="block" id="experience"><div class="sec-h">Experience</div><div class="tl"><a class="row" data-reveal style="--d:0ms" href="https://www.modjo.ai" target="_blank" rel="noopener noreferrer"><span class="yr">2025 →</span><span class="body"><span class="head"><span class="co">Modjo<span class="ext">↗</span></span><span class="ro">Senior Product Manager</span></span><span class="out">Took Modjo Agents from preview to GA in 4 months, and shipped the public MCP.</span><span class="fact">€7M Series A · AI-native CRM</span></span></a><a class="row" data-reveal style="--d:55ms" href="https://www.oplit.com" target="_blank" rel="noopener noreferrer"><span class="yr">2025</span><span class="body"><span class="head"><span class="co">Oplit<span class="ext">↗</span></span><span class="ro">Head of Product</span></span><span class="out">Owned product strategy and roadmap; structured the team and the discovery-to-delivery process.</span><span class="fact">€2.6M seed · AI for factories</span></span></a><a class="row" data-reveal style="--d:110ms" href="https://www.scaleway.com" target="_blank" rel="noopener noreferrer"><span class="yr">2022 – 25</span><span class="body"><span class="head"><span class="co">Scaleway<span class="ext">↗</span></span><span class="ro">Product Manager</span></span><span class="out">Doubled Block Storage revenue and signed a strategic Apple Silicon contract.</span><span class="fact">iliad Group · EU sovereign cloud & AI</span></span></a><a class="row" data-reveal style="--d:165ms" href="https://www.gitguardian.com" target="_blank" rel="noopener noreferrer"><span class="yr">2020 – 22</span><span class="body"><span class="head"><span class="co">GitGuardian<span class="ext">↗</span></span><span class="ro">Product Manager</span></span><span class="out">Near-zero Enterprise churn; shipped the public API, audit logs, severity scoring, auto-remediation.</span><span class="fact">$106M raised · $50M Series C (2026)</span></span></a><a class="row" data-reveal style="--d:220ms" href="https://www.leeto.co" target="_blank" rel="noopener noreferrer"><span class="yr">2019 – 20</span><span class="body"><span class="head"><span class="co">Leeto<span class="ext">↗</span></span><span class="ro">Lead tech & product</span></span><span class="out">Rebuilt the CSE benefits platform: internal banking, employee portal, online shop.</span><span class="fact">later acquired by Up Coop</span></span></a><a class="row" data-reveal style="--d:275ms" href="https://aircall.io" target="_blank" rel="noopener noreferrer"><span class="yr">2016 – 18</span><span class="body"><span class="head"><span class="co">Aircall<span class="ext">↗</span></span><span class="ro">Backend dev → Technical Advisor</span></span><span class="out">Built a call-routing system handling 200k+ calls a day. The throughline: I have always read the code.</span><span class="fact">Centaur · $200M+ ARR · $1B unicorn</span></span></a></div></section></div><div class="cli-screen"><div class="ascii-win"><div class="aw-bar"><span class="aw-dots"><i></i><i></i><i></i></span><span class="aw-title">nwa — terminal</span><span class="aw-egg-toggle"><button id="eggTheme">◐ theme</button><button id="eggExit">exit ⏎</button></span></div><div class="aw-scroll" id="awScroll"><div class="aw-body"><pre class="figlet"> ███╗   ██╗    ██╗    ██╗     █████╗ 
+ ████╗  ██║    ██║    ██║    ██╔══██╗
+ ██╔██╗ ██║    ██║ █╗ ██║    ███████║
+ ██║╚██╗██║    ██║███╗██║    ██╔══██║
+ ██║ ╚████║ ██╗╚███╔███╔╝ ██╗██║  ██║
+ ╚═╝  ╚═══╝ ╚═╝ ╚══╝╚══╝  ╚═╝╚═╝  ╚═╝</pre><div class="aw-tag">Freelance product manager. Ships AI agents, MCP, and the occasional fashion brand.<br><span class="aw-v">v2.026 · nerd with attitude</span></div><div class="stripes"><i style="background:var(--a1)"></i><i style="background:var(--a2)"></i><i style="background:var(--a3)"></i><i style="background:var(--a4)"></i><i style="background:var(--a5)"></i><i style="background:var(--a6)"></i></div><div class="aw-cmds"><div class="aw-h">Commands — type one below and hit ⏎</div><div class="aw-row"><b>work</b><span>Start a project — freelance, open to AI &amp; product</span></div><div class="aw-row"><b>built</b><span>List shipped things (Moire, agents, modjo-cli…)</span></div><div class="aw-row"><b>cv</b><span>Print the experience timeline</span></div><div class="aw-row"><b>whoami</b><span>Thomas Deschamps · ex-backend dev · Paris</span></div><div class="aw-row"><b>help · clear</b><span>List commands · clear the screen</span></div><div class="aw-h" style="margin-top:14px">Shortcuts</div><div class="aw-row"><b>↑↑↓↓←→←→ B A</b><span>Toggle this mode</span></div><div class="aw-row"><b>hold the tomato</b><span>(back on the real page) flood the screen with sauce</span></div></div><div class="aw-foot">Run <b>help</b> for the command list. <b>exit</b> to leave.</div><div class="aw-log" id="awLog"></div></div></div><div class="aw-promptline"><span class="aw-ps">thomas@nwa ~ %</span><input class="aw-input" id="awInput" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="type a command… (try: whoami)"></div></div></div>
+<script is:inline>
+
+const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const root=document.documentElement,tg=document.getElementById('tg'),knob=document.getElementById('knob');
+const saved=localStorage.getItem('theme'),sysDark=window.matchMedia('(prefers-color-scheme: dark)').matches;
+const start=saved||(sysDark?'dark':'light');root.setAttribute('data-theme',start);knob.textContent=start==='dark'?'\u263e':'\u2600';
+tg.addEventListener('click',()=>{const n=root.getAttribute('data-theme')==='dark'?'light':'dark';root.setAttribute('data-theme',n);knob.textContent=n==='dark'?'\u263e':'\u2600';localStorage.setItem('theme',n);});
+
+// hero build-in (one-time on load)
+requestAnimationFrame(()=>document.body.classList.add('built-in'));
+
+// scroll reveals
+const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.2});
+document.querySelectorAll('[data-reveal]').forEach(el=>io.observe(el));
+
+// ===== TOMATO SAUCE (WebGL liquid shader) -> 3D CAN finale — press & HOLD the tomato =====
+const tom=document.getElementById('tom');
+let holdTimer=null, holding=false;
+function squashTomato(){ if(reduce)return; tom.animate([{transform:'scale(1) rotate(0)'},{transform:'scale(1.35,0.7) rotate(-6deg)',offset:.25},{transform:'scale(0.85,1.2) rotate(5deg)',offset:.55},{transform:'scale(1.08,0.96) rotate(-2deg)',offset:.78},{transform:'scale(1) rotate(0)'}],{duration:600,easing:'cubic-bezier(0.23,1,0.32,1)'}); }
+
+// Lazy WebGL controller — three.js loaded only on first trigger (keeps the main page light).
+const Sauce = (function(){
+  let THREE=null, loading=null, ready=false;
+  let renderer, scene, cam, quad, mat, canMesh, canGroup, shards=[];
+  let raf=null, t0=0, last=0;
+  let level=0, vlevel=0, hold=false, phase='idle'; // idle|flood|fill|burst
+  let burstT=0, fillT=0;
+  const MAXB=24; const blobs=[]; // {x,y,r,vy,active}
+  const cont=document.createElement('div');
+  cont.style.cssText='position:fixed;inset:0;z-index:38;pointer-events:none;display:none;';
+  document.body.appendChild(cont);
+
+  function loadThree(){
+    if(loading) return loading;
+    loading = import('https://unpkg.com/three@0.160.0/build/three.module.js')
+      .then(m=>{ THREE=m; init(); ready=true; }).catch(e=>{ console.warn('three load failed',e); throw e; });
+    return loading;
+  }
+
+  // ---- metaball sauce shader (fullscreen) ----
+  const VERT='attribute vec3 position;void main(){gl_Position=vec4(position,1.0);}';
+  const FRAG=[
+  'precision highp float;',
+  'uniform vec2 uRes; uniform float uTime; uniform float uLevel; uniform int uCount; uniform vec3 uBlobs[24];',
+  'float sdSphere(vec3 p,float s){return length(p)-s;}',
+  'float smin(float a,float b,float k){float h=exp2(-k*a)+exp2(-k*b);return -log2(h)/k;}',
+  'float hash(vec3 p){p=fract(p*0.3183+0.1);p*=17.0;return fract(p.x*p.y*p.z*(p.x+p.y+p.z));}',
+  'float noise(vec3 x){vec3 i=floor(x),f=fract(x);f=f*f*(3.0-2.0*f);',
+  ' return mix(mix(mix(hash(i+vec3(0,0,0)),hash(i+vec3(1,0,0)),f.x),mix(hash(i+vec3(0,1,0)),hash(i+vec3(1,1,0)),f.x),f.y),',
+  ' mix(mix(hash(i+vec3(0,0,1)),hash(i+vec3(1,0,1)),f.x),mix(hash(i+vec3(0,1,1)),hash(i+vec3(1,1,1)),f.x),f.y),f.z);}',
+  'float map(vec3 p){',
+  ' float asp=uRes.x/uRes.y;',
+  ' // rising pool: a 3D slab that BULGES toward the camera (same z-space as the blobs), wobbly top.',
+  ' float top=-1.0+uLevel*2.0;',
+  ' float wob=sin(p.x*4.0+uTime*1.6)*0.05+sin(p.x*9.0-uTime*1.1)*0.025+noise(vec3(p.x*3.0,uTime*0.6,0.0))*0.07;',
+  ' // distance to a thick rounded slab: limited in y (top) and z (front face) so it has real 3D form',
+  ' float surfY=p.y-(top+wob);',                       // signed dist to the wobbly top plane
+  ' float frontZ=abs(p.z)-0.32;',                      // slab is ~0.32 thick in z, centered at z=0
+  ' float pool=max(surfY,frontZ)-0.10;',               // intersection -> rounded slab front, smoothed
+  ' float d=pool;',
+  ' for(int i=0;i<24;i++){ if(i>=uCount)break; vec3 b=uBlobs[i]; float s=sdSphere(p-vec3(b.x*asp,b.y,0.0),b.z); d=smin(d,s,6.0);} ',
+  ' return d;}',
+  'vec3 calcN(vec3 p){vec2 e=vec2(0.002,0.0);return normalize(vec3(map(p+e.xyy)-map(p-e.xyy),map(p+e.yxy)-map(p-e.yxy),map(p+e.yyx)-map(p-e.yyx)));}',
+  'void main(){',
+  ' vec2 uv=(gl_FragCoord.xy/uRes)*2.0-1.0; uv.x*=uRes.x/uRes.y;',
+  ' vec3 ro=vec3(uv,1.5); vec3 rd=vec3(0.0,0.0,-1.0);',
+  ' float t=0.0; float d; bool hit=false; vec3 p;',
+  ' for(int i=0;i<48;i++){ p=ro+rd*t; d=map(p); if(d<0.001){hit=true;break;} t+=d; if(t>4.0)break; }',
+  ' if(!hit){ discard; }',
+  ' vec3 n=calcN(p);',
+  ' vec3 L=normalize(vec3(0.4,0.8,0.6));',
+  ' float diff=clamp(dot(n,L),0.0,1.0);',
+  ' vec3 V=vec3(0.0,0.0,1.0);',
+  ' vec3 R=reflect(-L,n); float spec=pow(clamp(dot(R,V),0.0,1.0),48.0);',
+  ' float rim=pow(1.0-clamp(dot(n,V),0.0,1.0),2.5);',
+  ' // tomato body: deep red in the troughs, bright on top',
+  ' vec3 deep=vec3(0.50,0.07,0.04); vec3 mid=vec3(0.83,0.18,0.10); vec3 brite=vec3(1.0,0.42,0.28);',
+  ' vec3 col=mix(deep,mid,clamp(diff*1.2,0.0,1.0)); col=mix(col,brite,diff*diff*0.6);',
+  ' col+=vec3(1.0,0.95,0.9)*spec*0.9;',
+  ' col+=vec3(1.0,0.55,0.4)*rim*0.25;',
+  ' // tiny seed/pulp speckles',
+  ' float sp=noise(p*40.0); if(sp>0.82) col=mix(col,vec3(1.0,0.9,0.55),0.5);',
+  ' gl_FragColor=vec4(col,1.0);',
+  '}'].join('\n');
+
+  function init(){
+    renderer=new THREE.WebGLRenderer({alpha:true,antialias:true});
+    renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));
+    renderer.setSize(innerWidth,innerHeight);
+    renderer.domElement.style.cssText='position:absolute;inset:0;width:100%;height:100%;';
+    cont.appendChild(renderer.domElement);
+    scene=new THREE.Scene();
+    cam=new THREE.PerspectiveCamera(40,innerWidth/innerHeight,0.1,100); cam.position.z=6;
+    // fullscreen sauce quad (raw shader, screen-space)
+    const g=new THREE.BufferGeometry();
+    g.setAttribute('position',new THREE.BufferAttribute(new Float32Array([-1,-1,0, 3,-1,0, -1,3,0]),3));
+    mat=new THREE.RawShaderMaterial({vertexShader:VERT,fragmentShader:FRAG,transparent:true,depthTest:false,
+      uniforms:{uRes:{value:new THREE.Vector2(innerWidth,innerHeight)},uTime:{value:0},uLevel:{value:0},uCount:{value:0},uBlobs:{value:Array.from({length:MAXB},()=>new THREE.Vector3())}}});
+    quad=new THREE.Mesh(g,mat); quad.frustumCulled=false;
+    const sscene=new THREE.Scene(); sscene.add(quad); Sauce._sscene=sscene; Sauce._scam=new THREE.Camera();
+    // environment for metallic sheen (procedural studio gradient via PMREM)
+    try{
+      const pmrem=new THREE.PMREMGenerator(renderer);
+      const envScene=new THREE.Scene();
+      const grad=new THREE.Mesh(new THREE.SphereGeometry(50,32,16),
+        new THREE.MeshBasicMaterial({side:THREE.BackSide, vertexColors:false, color:0x444444}));
+      envScene.add(grad);
+      // bright soft top light + darker bottom: fake via two lights baked into the env
+      const e1=new THREE.Mesh(new THREE.SphereGeometry(8,16,16),new THREE.MeshBasicMaterial({color:0xffffff})); e1.position.set(0,30,10); envScene.add(e1);
+      const e2=new THREE.Mesh(new THREE.SphereGeometry(6,16,16),new THREE.MeshBasicMaterial({color:0xffe6cc})); e2.position.set(-20,5,-15); envScene.add(e2);
+      const env=pmrem.fromScene(envScene,0.04); scene.environment=env.texture;
+    }catch(e){}
+    // 3D can
+    canGroup=new THREE.Group(); scene.add(canGroup);
+    buildCan();
+    canGroup.visible=false;
+    const amb=new THREE.AmbientLight(0xffffff,0.45); scene.add(amb);
+    const key=new THREE.DirectionalLight(0xffffff,1.25); key.position.set(3,5,5); scene.add(key);
+    const fill=new THREE.DirectionalLight(0xfff0e6,0.5); fill.position.set(-4,1,3); scene.add(fill);
+    const rimL=new THREE.DirectionalLight(0xffd6b0,0.7); rimL.position.set(-2,4,-4); scene.add(rimL);
+    if(renderer.outputColorSpace!==undefined) renderer.outputColorSpace=THREE.SRGBColorSpace;
+    addEventListener('resize',onResize);
+  }
+  function onResize(){ if(!renderer)return; renderer.setSize(innerWidth,innerHeight); cam.aspect=innerWidth/innerHeight; cam.updateProjectionMatrix(); mat.uniforms.uRes.value.set(innerWidth,innerHeight); }
+
+  function labelTexture(){
+    const W=1024,Hh=512; const c=document.createElement('canvas'); c.width=W; c.height=Hh; const x=c.getContext('2d');
+    // Campbell's palette: bright scarlet red + clean white + warm gold
+    const RED='#c8102e', REDD='#a50d24', WHITE='#f7f4ec', GOLD='#caa12e', GOLDL='#f0d784', GOLDD='#8f6f18', INK='#b01228';
+    // white base
+    x.fillStyle=WHITE; x.fillRect(0,0,W,Hh);
+    // TOP RED FIELD (upper ~50%)
+    const splitY=Math.round(Hh*0.50);
+    x.fillStyle=RED; x.fillRect(0,0,W,splitY);
+    // GOLD DIVIDER BAND at the split
+    const bandY=splitY-14;
+    x.fillStyle=GOLDD; x.fillRect(0,bandY-2,W,30);
+    const bg=x.createLinearGradient(0,bandY,0,bandY+26); bg.addColorStop(0,GOLDL); bg.addColorStop(.5,GOLD); bg.addColorStop(1,GOLDD);
+    x.fillStyle=bg; x.fillRect(0,bandY,W,26);
+    // thin gold pinstripes near top rim and bottom rim
+    x.fillStyle=GOLD; x.fillRect(0,16,W,5); x.fillRect(0,Hh-22,W,5);
+
+    const cx=W*0.5; x.textAlign='center';
+    // BRAND — big white, centered in the red field
+    x.fillStyle=WHITE; x.font='800 100px "Instrument Sans",Arial,sans-serif'; x.textBaseline='middle'; x.fillText('N.W.A.', cx, splitY*0.46); x.textBaseline='alphabetic';
+    // CONDENSED — italic script centered ON the gold band
+    x.fillStyle=INK; x.font='italic 700 26px Georgia,serif'; x.fillText('Condensed', cx, splitY+5);
+    // PRODUCT NAME — red italic script on white
+    x.fillStyle=RED; x.font='italic 800 78px Georgia,"Times New Roman",serif';
+    x.fillText('Tomato', cx, Hh*0.65); x.fillText('Soup', cx, Hh*0.65+70);
+    // fine print
+    x.fillStyle=GOLDD; x.font='600 15px "JetBrains Mono",monospace'; x.fillText('NERD WITH ATTITUDE · NET WT 10¾ OZ (305g)', cx, Hh-8);
+
+    // GOLD MEDALLION SEAL — prominent, centered under the product name (raised off the rim)
+    const mx=cx, my=Hh*0.835, mr=38;
+    const mg=x.createRadialGradient(mx-12,my-12,4,mx,my,mr);
+    mg.addColorStop(0,GOLDL); mg.addColorStop(.55,GOLD); mg.addColorStop(1,GOLDD);
+    x.fillStyle=mg; x.beginPath(); x.arc(mx,my,mr,0,6.283); x.fill();
+    x.strokeStyle=GOLDD; x.lineWidth=2.5; x.beginPath(); x.arc(mx,my,mr-5,0,6.283); x.stroke();
+    // tiny scallop dots around the ring
+    for(let i=0;i<18;i++){ const a=i/18*6.283; x.fillStyle=GOLDD; x.beginPath(); x.arc(mx+Math.cos(a)*(mr-2),my+Math.sin(a)*(mr-2),1.6,0,6.283); x.fill(); }
+    x.fillStyle=INK; x.font='800 16px Georgia,serif'; x.fillText('EST', mx, my-3); x.font='800 18px Georgia,serif'; x.fillText("’26", mx, my+16);
+
+    // cylindrical SHEEN. Front of can = canvas center (u=0.5). Visible sides ≈ canvas x 0.25 and 0.75.
+    // bright vertical glint just left of front-center
+    x.globalCompositeOperation='soft-light';
+    const sx=W*0.44, sw=W*0.07;
+    const sh=x.createLinearGradient(sx-sw,0,sx+sw,0); sh.addColorStop(0,'rgba(255,255,255,0)'); sh.addColorStop(.5,'rgba(255,255,255,0.9)'); sh.addColorStop(1,'rgba(255,255,255,0)');
+    x.fillStyle=sh; x.fillRect(sx-sw,0,sw*2,Hh);
+    // darken the visible curved sides (around x=0.27 and x=0.73), keep front bright
+    x.globalCompositeOperation='multiply';
+    const ed=x.createLinearGradient(0,0,W,0);
+    ed.addColorStop(0.10,'rgba(255,255,255,1)');
+    ed.addColorStop(0.27,'rgba(70,40,30,0.5)');   // left visible edge -> shadow
+    ed.addColorStop(0.50,'rgba(255,255,255,1)');  // front -> bright
+    ed.addColorStop(0.73,'rgba(70,40,30,0.5)');   // right visible edge -> shadow
+    ed.addColorStop(0.90,'rgba(255,255,255,1)');
+    x.fillStyle=ed; x.fillRect(0,0,W,Hh);
+    x.globalCompositeOperation='source-over';
+
+    const tx=new THREE.CanvasTexture(c); tx.anisotropy=16; tx.colorSpace=THREE.SRGBColorSpace; tx.wrapS=THREE.RepeatWrapping;
+    tx.offset.x=0.5;
+    return tx;
+  }
+  function buildCan(){
+    const R=1.05,Hc=2.55;                        // squatter, real soup-can proportions
+    const body=new THREE.Mesh(new THREE.CylinderGeometry(R,R,Hc,128,1,true),
+      new THREE.MeshStandardMaterial({map:labelTexture(),roughness:0.32,metalness:0.12,envMapIntensity:0.8}));
+    const tin=new THREE.MeshStandardMaterial({color:0xcfcabb,roughness:0.28,metalness:0.9});
+    const tinD=new THREE.MeshStandardMaterial({color:0xa8a293,roughness:0.35,metalness:0.85});
+    // top & bottom pinched seam rings (the classic double-seam)
+    function seam(y){ const g=new THREE.Group();
+      const a=new THREE.Mesh(new THREE.CylinderGeometry(R*1.02,R*1.02,0.10,96),tin); a.position.y=y;
+      const b=new THREE.Mesh(new THREE.TorusGeometry(R*1.0,0.05,10,96),tinD); b.rotation.x=Math.PI/2; b.position.y=y;
+      g.add(a,b); return g; }
+    const top=seam(Hc/2), bot=seam(-Hc/2);
+    // recessed metal lid + base discs
+    const lid=new THREE.Mesh(new THREE.CylinderGeometry(R*0.94,R*0.94,0.06,96),tin); lid.position.y=Hc/2+0.02;
+    const base=new THREE.Mesh(new THREE.CylinderGeometry(R*0.94,R*0.94,0.06,96),tin); base.position.y=-Hc/2-0.02;
+    // subtle inner ring on the lid
+    const lidRing=new THREE.Mesh(new THREE.TorusGeometry(R*0.8,0.03,8,64),tinD); lidRing.rotation.x=Math.PI/2; lidRing.position.y=Hc/2+0.05;
+    canGroup.add(body,top,bot,lid,base,lidRing);
+    Sauce._canParts=[body,top,bot,lid,base,lidRing];
+  }
+  // ---- faithful 3D tomato (emoji-style): glossy squashed red body + green 5-leaf calyx + stem ----
+  let _tomatoGeo=null, _tomatoBodyMat=null, _leafMat=null, _stemMat=null;
+  function makeTomato3D(){
+    if(!_tomatoBodyMat){
+      _tomatoBodyMat=new THREE.MeshStandardMaterial({color:0xe23b22,roughness:0.18,metalness:0.0});
+      _leafMat=new THREE.MeshStandardMaterial({color:0x46a93f,roughness:0.55,metalness:0.0,side:THREE.DoubleSide});
+      _stemMat=new THREE.MeshStandardMaterial({color:0x6b8f2e,roughness:0.7});
+      _tomatoGeo=new THREE.SphereGeometry(0.5,24,18);
+    }
+    const g=new THREE.Group();
+    // body: sphere squashed top/bottom + a touch wide (emoji tomato proportions)
+    const body=new THREE.Mesh(_tomatoGeo,_tomatoBodyMat); body.scale.set(1.06,0.86,1.06);
+    g.add(body);
+    // green calyx: 5 little leaves splayed from the top
+    const calyx=new THREE.Group(); calyx.position.y=0.40;
+    for(let i=0;i<5;i++){
+      const leaf=new THREE.Mesh(new THREE.ConeGeometry(0.12,0.30,5),_leafMat);
+      const a=(i/5)*Math.PI*2;
+      leaf.position.set(Math.cos(a)*0.16,0.02,Math.sin(a)*0.16);
+      leaf.rotation.z=Math.cos(a)*0.9; leaf.rotation.x=-Math.sin(a)*0.9; leaf.rotation.y=a;
+      leaf.scale.set(1,1,0.5);
+      calyx.add(leaf);
+    }
+    // little stem nub
+    const stem=new THREE.Mesh(new THREE.CylinderGeometry(0.05,0.06,0.16,8),_stemMat); stem.position.y=0.12; calyx.add(stem);
+    g.add(calyx);
+    return g;
+  }
+
+  function explodeCan(){
+    canGroup.visible=false;
+    const N=34; shards=[];
+    for(let i=0;i<N;i++){
+      const m=makeTomato3D();
+      const sc=0.5+Math.random()*0.7; m.scale.setScalar(sc);
+      m.position.set((Math.random()-0.5)*0.6,(Math.random()-0.5)*0.6,(Math.random()-0.5)*0.4);
+      const a=Math.random()*6.283, el=(Math.random()*0.9+0.1), sp=5+Math.random()*8;
+      m.userData={vx:Math.cos(a)*sp,vy:Math.sin(el)*sp+2.0,vz:Math.abs(Math.sin(a))*sp*0.5+1.5, // bias toward camera (+z)
+        rvx:(Math.random()-.5)*10,rvy:(Math.random()-.5)*10,splatted:false,sc:sc};
+      scene.add(m); shards.push(m);
+    }
+  }
+
+  // a little crown of droplets kicked up + outward when a drip hits the pool
+  function spawnSplash(x,surf){
+    let made=0;
+    for(const b of blobs){ if(b.active||made>=3)continue;
+      const dir=(Math.random()<0.5?-1:1)*(0.4+Math.random()*0.9);
+      b.x=x; b.y=surf+0.02; b.vx=dir; b.vy=0.7+Math.random()*0.7; b.r=0.05+Math.random()*0.05; b.splash=true; b.active=true; made++;
+    }
+  }
+
+  function tick(now){
+    raf=requestAnimationFrame(tick);
+    const dt=Math.min(0.05,(now-last)/1000||0.016); last=now;
+    mat.uniforms.uTime.value=now/1000;
+    // level easing
+    const tgt = hold ? 1.0 : (phase==='flood'?0.0:level);
+    if(phase==='flood'){ level += (hold? dt*0.20 : -dt*0.75); level=Math.max(0,Math.min(1,level)); }
+    vlevel += (level-vlevel)*0.12;
+    mat.uniforms.uLevel.value=vlevel;
+    // blobs (falling feeders + splash droplets) only while filling
+    if(phase==='flood' && hold){
+      // pool base in shader-space (wobble oscillates around this). Drips fuse via smin as they cross it.
+      const base = -1+vlevel*2;
+      for(const b of blobs){ if(!b.active)continue;
+        b.vy-=dt*(b.splash?7.0:5.0); b.y+=b.vy*dt; if(b.splash)b.x+=b.vx*dt;
+        if(b.splash){ if(b.y < base){ b.active=false; } }                   // splash droplet falls back in
+        else {
+          // crown splash fires when the blob's bottom edge first touches the wobble band (base + 0.12)
+          if(!b.merged && (b.y - b.r) < base + 0.12){ b.merged=true; spawnSplash(b.x, base+0.06); }
+          // keep the blob alive and falling (so it stays visually CONNECTED to the pool via smin)
+          // until its CENTER sinks a full radius below the base — only then remove it.
+          if(b.y < base - b.r){ b.active=false; b.merged=false; }
+        }
+      }
+      if(Math.random()<0.7){ const free=blobs.find(b=>!b.active); const bb=free||(blobs.length<MAXB?{}:null); if(bb){ bb.x=(Math.random()*2-1)*0.98; bb.y=1.25; bb.vy=-0.9-Math.random()*0.7; bb.r=0.13+Math.random()*0.13; bb.splash=false; bb.merged=false; bb.active=true; if(!free)blobs.push(bb);} }
+    }
+    // push blob uniforms
+    const act=blobs.filter(b=>b.active).slice(0,MAXB);
+    mat.uniforms.uCount.value=act.length;
+    for(let i=0;i<MAXB;i++){ const u=mat.uniforms.uBlobs.value[i]; if(i<act.length)u.set(act[i].x,act[i].y,act[i].r); else u.set(0,-99,0); }
+
+    // full -> trigger pour-into-can
+    if(phase==='flood' && vlevel>0.985){
+      phase='fill'; fillT=0;
+      canGroup.visible=true;
+      // can rises from the bottom, already front-facing (label toward camera)
+      canGroup.position.set(0,-1.8,0); canGroup.scale.setScalar(0.0);
+      canGroup.rotation.set(0,0,0);
+    }
+
+    if(phase==='fill'){
+      fillT+=dt;
+      const POUR=1.6;
+      // BEAT 1 (0–POUR): can sits front-facing at the bottom; the screen sauce visibly POURS INTO its mouth.
+      if(fillT<POUR){
+        const pop=Math.min(1,fillT/0.45);
+        canGroup.scale.setScalar((0.55+pop*0.45)*0.8);
+        canGroup.position.y += (-0.6 - canGroup.position.y)*0.16; // settle low (mouth near sauce)
+        canGroup.rotation.y += (0 - canGroup.rotation.y)*0.2;      // already front-facing, hold it
+        canGroup.rotation.x += (0 - canGroup.rotation.x)*0.2;
+        // drive the metaballs to FUNNEL toward the can mouth (screen-space ~ (0, can top)) and shrink
+        const k=fillT/POUR;
+        // can mouth in shader-space coords (x≈0, y rises with can): roughly y = -0.2
+        const mouthY=-0.15;
+        for(const b of blobs){ if(!b.active)continue; b.x += (0 - b.x)*0.10; b.y += (mouthY - b.y)*0.10 - dt*0.4; b.r*=0.985; if(b.y<mouthY||b.r<0.04){ b.active=false; } }
+        // keep spawning feeder blobs that stream down the funnel while sauce remains
+        if(level>0.05 && Math.random()<0.7){ const free=blobs.find(b=>!b.active); const bb=free||{}; bb.x=(Math.random()*2-1)*0.55; bb.y=0.9; bb.vy=0; bb.r=0.14+Math.random()*0.1; bb.active=true; if(!free)blobs.push(bb); }
+        // pool level drops as it pours in
+        level=Math.max(0,1-(fillT/POUR));
+      }
+      // BEAT 2 (POUR .. POUR+SETTLE): can rises to center, label dead-front, settles at presentation size.
+      else if(fillT < POUR+0.9){
+        level=0; for(const b of blobs)b.active=false;
+        const u=Math.min(1,(fillT-POUR)/0.9); const ease=1-Math.pow(1-u,3);
+        canGroup.rotation.y += (0 - canGroup.rotation.y)*0.25;
+        canGroup.rotation.x += (0 - canGroup.rotation.x)*0.25;
+        canGroup.position.set(0,(0 - canGroup.position.y)*0.0 + canGroup.position.y + (0-canGroup.position.y)*0.18, 0);
+        canGroup.scale.setScalar((0.85+ease*0.35)*0.8);
+      }
+      // BEAT 3 (SHAKE & SWELL, ~0.9s): can vibrates hard and swells bigger — implosion tension.
+      else if(fillT < POUR+1.8){
+        const s=(fillT-(POUR+0.9))/0.9;                // 0..1
+        const shake=0.012+s*0.06;
+        canGroup.position.x=(Math.random()-0.5)*shake; canGroup.position.y=(Math.random()-0.5)*shake;
+        canGroup.rotation.z=(Math.random()-0.5)*shake*1.2;
+        const swell=1.0 + s*0.55 + Math.sin(fillT*40)*0.02; // grow + buzz
+        canGroup.scale.setScalar((0.95+swell*0.25)*0.8);
+      }
+      // -> BLAST
+      else { canGroup.rotation.z=0; phase='burst'; burstT=0; explodeCan(); }
+    }
+
+    if(phase==='burst'){
+      burstT+=dt;
+      // a quick implosion pop: bright flash
+      if(burstT<0.14){ cont.style.background='rgba(255,245,235,'+(0.85*(1-burstT/0.14))+')'; }
+      else { cont.style.background='transparent'; }
+      // tomatoes fly out (toward camera bias) with gravity + spin; splat on the glass when they pass near z
+      for(const m of shards){ const u=m.userData; if(u.dead)continue;
+        u.vy-=dt*9; m.position.x+=u.vx*dt; m.position.y+=u.vy*dt; m.position.z+=u.vz*dt;
+        m.rotation.x+=u.rvx*dt; m.rotation.y+=u.rvy*dt;
+        // when a tomato reaches the camera plane (z ~ cam.z-0.6), it SPLATS on the screen and disappears
+        if(!u.splatted && m.position.z > cam.position.z-1.2){ u.splatted=true; u.dead=true; m.visible=false; tomatoSplatDom(m.position,u.sc); }
+        // also kill if it flies off-screen
+        if(m.position.y< -8 || Math.abs(m.position.x)>14){ u.dead=true; m.visible=false; }
+      }
+      if(burstT>1.8){ finish(); return; }
+    }
+
+    // render: sauce fullscreen first, then 3D scene on top (only when can visible)
+    renderer.autoClear=true;
+    const showSauce = (vlevel>0.001 || phase==='flood');
+    if(showSauce){ renderer.render(Sauce._sscene,Sauce._scam); renderer.autoClear=false; }
+    else { renderer.clear(); }
+    if(canGroup.visible || shards.length){ renderer.autoClear=!showSauce; renderer.render(scene,cam); }
+
+    if(phase==='idle' && vlevel<0.002){ stop(); }
+  }
+
+  // DOM sauce-splat: big translucent red gobs sprayed across the whole screen, then fade
+  function sauceSplat(){
+    const layer=document.createElement('div');
+    layer.style.cssText='position:fixed;inset:0;z-index:39;pointer-events:none;overflow:hidden;';
+    document.body.appendChild(layer);
+    const N=26;
+    for(let i=0;i<N;i++){
+      const g=document.createElement('div');
+      const sz=60+Math.random()*220;
+      const x=Math.random()*100, y=Math.random()*100;
+      const c=['#c8341f','#e5482f','#a3220f','#d6331c'][i%4];
+      g.style.cssText='position:absolute;left:'+x+'vw;top:'+y+'vh;width:'+sz+'px;height:'+(sz*(.6+Math.random()*.5))+'px;'
+        +'background:radial-gradient(ellipse at 40% 35%, '+c+' 0%, '+c+' 55%, rgba(200,52,31,0) 72%);'
+        +'border-radius:'+(40+Math.random()*40)+'% '+(40+Math.random()*40)+'% '+(40+Math.random()*40)+'% '+(40+Math.random()*40)+'%;'
+        +'transform:translate(-50%,-50%) scale(0) rotate('+(Math.random()*360)+'deg);filter:blur(.4px);';
+      layer.appendChild(g);
+      g.animate([{transform:g.style.transform.replace('scale(0)','scale(0)'),opacity:1},
+                 {transform:g.style.transform.replace('scale(0)','scale(1.15)'),opacity:1,offset:0.18},
+                 {transform:g.style.transform.replace('scale(0)','scale(1)'),opacity:0}],
+                 {duration:1500+Math.random()*900,easing:'cubic-bezier(0.23,1,0.32,1)',delay:Math.random()*120}).onfinish=()=>g.remove();
+    }
+    setTimeout(()=>layer.remove(),3000);
+  }
+
+  function start(){ if(reduce){squashTomato();return;}
+    loadThree().then(()=>{
+      cont.style.display='block'; document.body.classList.add('is-raining');
+      hold=true; phase='flood'; level=Math.max(level,0.02); last=performance.now();
+      if(!raf) raf=requestAnimationFrame(tick);
+    }).catch(()=>{}); }
+  // project a 3D tomato position to screen and splat a juicy DOM gob ON the glass
+  function tomatoSplatDom(pos3d, sc){
+    const v=pos3d.clone().project(cam);
+    const sx=(v.x*0.5+0.5)*innerWidth, sy=(-v.y*0.5+0.5)*innerHeight;
+    const layer=Sauce._splatLayer || (Sauce._splatLayer=(()=>{ const l=document.createElement('div'); l.style.cssText='position:fixed;inset:0;z-index:39;pointer-events:none;overflow:hidden;'; document.body.appendChild(l); return l; })());
+    const r=(70+Math.random()*90)*(0.6+sc);
+    const g=document.createElement('div');
+    const c=['#d6331c','#e5482f','#c8201f','#b3270f'][Math.floor(Math.random()*4)];
+    g.style.cssText='position:absolute;left:'+sx+'px;top:'+sy+'px;width:'+r+'px;height:'+(r*(0.7+Math.random()*0.4))+'px;'
+      +'background:radial-gradient(ellipse at 42% 38%, #ff7a55 0%, '+c+' 40%, '+c+' 62%, rgba(200,52,31,0) 74%);'
+      +'border-radius:'+(38+Math.random()*44)+'% '+(38+Math.random()*44)+'% '+(40+Math.random()*44)+'% '+(40+Math.random()*44)+'%;'
+      +'transform:translate(-50%,-50%) scale(0) rotate('+(Math.random()*360)+'deg);filter:blur(.4px);';
+    layer.appendChild(g);
+    const base=g.style.transform;
+    g.animate([{transform:base,opacity:0},{transform:base.replace('scale(0)','scale(1.18)'),opacity:1,offset:0.14},
+               {transform:base.replace('scale(0)','scale(1)'),opacity:1,offset:0.4},
+               {transform:base.replace('scale(0)','scale(1)'),opacity:0}],
+               {duration:1800+Math.random()*900,easing:'cubic-bezier(0.22,1,0.3,1)'}).onfinish=()=>g.remove();
+    // little seed fleck spray
+    for(let i=0;i<4;i++){ const sd=document.createElement('div'); sd.style.cssText='position:absolute;left:'+sx+'px;top:'+sy+'px;width:4px;height:6px;border-radius:50%;background:#ffe196;'; layer.appendChild(sd); const a=Math.random()*6.28,d=20+Math.random()*40; sd.animate([{transform:'translate(-50%,-50%)',opacity:1},{transform:'translate(calc(-50% + '+Math.cos(a)*d+'px),calc(-50% + '+Math.sin(a)*d+'px))',opacity:0}],{duration:600,easing:'cubic-bezier(0.3,0,0.5,1)'}).onfinish=()=>sd.remove(); }
+  }
+
+  function release(){ hold=false; /* if not yet full, it drains via phase flood */ }
+  function stop(){ if(raf)cancelAnimationFrame(raf); raf=null; cont.style.display='none'; phase='idle'; }
+  function finish(){ for(const m of shards){scene.remove(m);} shards=[]; canGroup.visible=false; level=0;vlevel=0;phase='idle'; Sauce._splatted=false; if(Sauce._splatLayer){Sauce._splatLayer.remove();Sauce._splatLayer=null;} cont.style.background='transparent'; stop(); }
+
+  // debug: jump straight to a phase for screenshot self-verification (no sauce, just the asset)
+  function _debug(which){ if(reduce)return; loadThree().then(()=>{ cont.style.display='block'; level=0;vlevel=0; for(const b of blobs)b.active=false;
+    if(!raf){last=performance.now();raf=requestAnimationFrame(tick);}
+    if(which==='can'){ phase='hold'; canGroup.visible=true; canGroup.position.set(0,0,0); canGroup.rotation.set(0,0,0); canGroup.scale.setScalar(0.85*0.8); }
+    else if(which==='swell'){ phase='hold'; canGroup.visible=true; canGroup.position.set(0,0,0); canGroup.scale.setScalar(1.25*0.8); }
+    else if(which==='burst'){ phase='burst'; burstT=0; canGroup.visible=true; canGroup.position.set(0,0,0); explodeCan(); }
+  }); }
+
+  return {start,release,_debug};
+})();
+try{ window.__sauce=Sauce; }catch(e){}
+
+function onDown(e){ e.preventDefault(); squashTomato(); holdTimer=setTimeout(()=>Sauce.start(),420); }
+function onUp(){ if(holdTimer){clearTimeout(holdTimer);holdTimer=null;} Sauce.release(); }
+tom.addEventListener('mousedown',onDown); tom.addEventListener('touchstart',onDown,{passive:false});
+window.addEventListener('mouseup',onUp); window.addEventListener('touchend',onUp);
+
+// ===== KONAMI CODE -> terminal "nerd mode" =====
+const seq=['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
+let kp=0;
+function enterEgg(){ document.documentElement.setAttribute('data-egg',''); const inp=document.getElementById('awInput'); if(inp)setTimeout(()=>inp.focus(),50); }
+function exitEgg(){ document.documentElement.removeAttribute('data-egg'); }
+function toggleEgg(){ document.documentElement.hasAttribute('data-egg')?exitEgg():enterEgg(); }
+window.addEventListener('keydown',(e)=>{ const k=e.key.length===1?e.key.toLowerCase():e.key; if(k===seq[kp]){ kp++; if(kp===seq.length){ toggleEgg(); kp=0; } } else { kp=(k===seq[0])?1:0; } });
+
+// ===== interactive terminal =====
+const awInput=document.getElementById('awInput'), awLog=document.getElementById('awLog'), awScroll=document.getElementById('awScroll');
+function logLine(html,cls){ const d=document.createElement('div'); d.className='out '+(cls||''); d.innerHTML=html; awLog.appendChild(d); if(awScroll)awScroll.scrollTop=awScroll.scrollHeight; }
+const CV=[
+  ['2025 →','Modjo','Senior PM','preview→GA in 4 months; shipped the public MCP','€7M Series A'],
+  ['2025','Oplit','Head of Product','owned strategy + roadmap; structured the team','€2.6M seed'],
+  ['2022–25','Scaleway','PM','2× Block Storage revenue; Apple Silicon contract','iliad / Free'],
+  ['2020–22','GitGuardian','PM','~0% Enterprise churn; public API, audit logs','$106M raised'],
+  ['2019–20','Leeto','Lead tech & product','rebuilt the CSE benefits platform','acq. Up Coop'],
+  ['2016–18','Aircall','Backend → Advisor','call routing, 200k+ calls/day','$1B unicorn']
+];
+const BUILT=[['Moire','live AI product → moire.club'],['Modjo Sales Agent','19 skills · open source'],['modjo-cli','Go · MCP server'],['Live Transcript','Twilio · Groq · 2h POC']];
+function run(raw){
+  const cmd=raw.trim().toLowerCase().replace(/^nwa\s+/,'');
+  logLine('<span class="echo">thomas@nwa ~ % '+raw.replace(/</g,'&lt;')+'</span>');
+  if(cmd===''){ return; }
+  if(cmd==='help'||cmd==='--help'){ logLine('Commands: <b style="color:var(--t-cmd)">work built cv whoami</b> · utils: <b style="color:var(--t-cmd)">help clear theme exit</b>'); }
+  else if(cmd==='whoami'){ logLine('Thomas Deschamps — freelance product manager, ex-backend dev. Paris.\nI ship AI agents, MCP, and the occasional fashion brand.'); }
+  else if(cmd==='work'||cmd==='hire'){ logLine('<span class="ok">Open to freelance AI &amp; product work.</span> → <b style="color:var(--t-cmd)">thomas@nerdwithattitude.xyz</b>'); }
+  else if(cmd==='built'||cmd==='ls'||cmd==='projects'){ BUILT.forEach(b=>logLine('  <b style="color:var(--t-cmd)">'+b[0]+'</b>  <span style="opacity:.7">'+b[1]+'</span>')); }
+  else if(cmd==='cv'||cmd==='experience'){ CV.forEach(r=>logLine('  <span style="color:var(--t-dim)">'+r[0]+'</span>  <b>'+r[1]+'</b> · '+r[2]+' — '+r[3]+' <span style="color:var(--a3)">['+r[4]+']</span>')); }
+  else if(cmd==='clear'||cmd==='cls'){ awLog.innerHTML=''; }
+  else if(cmd==='theme'){ tg.click(); logLine('<span class="ok">theme flipped.</span>'); }
+  else if(cmd==='exit'||cmd==='q'){ logLine('<span class="ok">bye 👋</span>'); setTimeout(exitEgg,250); }
+  else if(cmd==='sudo'){ logLine('<span class="err">nice try.</span>'); }
+  else { logLine('<span class="err">command not found: '+cmd+'</span> — try <b style="color:var(--t-cmd)">help</b>'); }
+}
+if(awInput){ awInput.addEventListener('keydown',(e)=>{ if(e.key==='Enter'){ run(awInput.value); awInput.value=''; } e.stopPropagation(); }); }
+const eggExit=document.getElementById('eggExit'), eggTheme=document.getElementById('eggTheme');
+if(eggExit)eggExit.addEventListener('click',exitEgg);
+if(eggTheme)eggTheme.addEventListener('click',()=>tg.click());
+// click anywhere in the terminal focuses the input
+const cliScreen=document.querySelector('.cli-screen');
+if(cliScreen)cliScreen.addEventListener('click',(e)=>{ if(e.target.tagName!=='BUTTON'&&awInput)awInput.focus(); });
+</script>
+</Base>
